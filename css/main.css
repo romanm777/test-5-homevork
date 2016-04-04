@@ -1,0 +1,359 @@
+/* Standart styles */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400,700);
+body {
+    font-family: Open Sans, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 14pt;
+    margin: 0;
+    min-width: 1280px;
+    box-sizing: border-box;;
+    background-color: #f2f2f2;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+.clear_fix {
+    clear: both;
+}
+
+/* Bohdan Kishchak START */
+header {
+    width: 100%;
+}
+/*Navigation*/
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: #FFFFFF;
+    line-height: 50px;
+}
+a.company_logo {
+    margin: 0;
+    float: left;
+    display: block;
+    font-size: 14pt;
+    padding: 0 10px;
+    margin-left: 100px;
+    color: #0C0C0C;
+    background-color: #CBD1D0;
+    text-decoration: none;
+}
+div.right_bar {
+    float: right;
+    margin-right: 10px;
+}
+ul.nav_bar {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+ul.nav_bar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+ul.nav_bar li a {
+    text-decoration: none;
+    color: #778181;
+    height: 50px;
+    display: block;
+    padding: 0 8px;
+}
+ul.nav_bar li a.active {
+    color: #579BD3;
+}
+div.nav_search {
+    display: inline-block;
+    width: 190px;
+    cursor: default;
+}
+div.nav_search img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+div.nav_search input {
+    width: 0;
+    position: relative;
+    top: -1px;
+    left: 10px;
+    transition: all 1s;
+    border: 0 solid #A0A9A9;
+    border-radius: 3px;
+    cursor: text;
+}
+div.nav_search input:focus {
+    display: inline-block;
+    width: 120px;
+    border: 1px solid #A0A9A9;
+}
+div.nav_search:hover input {
+    display: inline-block;
+    width: 120px;
+    border: 1px solid #A0A9A9;
+}
+/*Banner*/
+div.banner {
+    width: 100%;
+    height: 380px;
+    background: url(../img/banner_bg.png);
+}
+div.banner_info {
+    width: 620px;
+    height: 190px;
+    position: relative;
+    left: 90px;
+    top: 80px;
+    color: #FFFFFF;
+    cursor: default;
+}
+h1.banner_info_title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+p.banner_info_text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+input.banner_info_button {
+    display: block;
+    margin: 0 auto;
+    background: #3498db;
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    border-radius: 6px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 30px;
+    text-decoration: none;
+    border: none;
+}
+input.banner_info_button:hover {
+  background: #3B86C8;
+  background-image: linear-gradient(to bottom, #3cb0fd, #3B86C8);
+  text-decoration: none;
+  cursor: pointer;
+}
+/*Credibility Logos*/
+div.cred_logos {
+    width: 100%;
+    height: 50px;
+    background-color: #FFFFFF;
+    line-height: 50px;
+    cursor: default;
+}
+div.cred_logos p {
+    display: inline-block;
+    width: 150px;
+    margin-left: 13%;
+    color: #292C2B;
+}
+div.cred_logos span {
+    background-color: #CBD1D0;
+    display: inline-block;
+    margin-right: 5%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    color: #737D7D;
+}
+/*Subscribe*/
+div.subscribe {
+    height: 190px;
+    width: 100%;
+    background-color: #37C1EB;
+    color: #FFFFFF;
+    cursor: default;
+}
+div.sub_banners {
+    height: 160px;
+    width: 375px;
+    position: relative;
+    left: 300px;
+    padding-top: 30px;
+    position: absolute;
+}
+div.sub_banners h3 {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+div.sub_banners a {
+    margin-right: 5px;
+}
+div.sub_banners img {
+    width: 147px;
+    height: 63px;
+}
+div.sub_info {
+    width: 650px;
+    height: 160px;
+    position: absolute;
+    left: 700px;
+    padding-top: 30px;
+}
+div.sub_info p {
+    font-size: 12pt;
+}
+div.sub_info ul {
+    font-size: 11pt;
+    padding-left: 18px;
+}
+/* Bohdan Kishchak END */
+
+
+/* Nastia Bila START */
+
+/* Nastia Bila END */
+
+
+/* Leonid Prorubshchykov START */
+
+/* Leonid Prorubshchykov END */
+
+
+/* ViktorSurkov START */
+div.photo{
+    display: inline-block;
+    width: 120px;
+    float: left;
+    margin: 10px;
+}
+div.text-container{
+    display: inline-block;
+    width: 60%;
+    float: left;
+    margin: 10px;
+    font-size: small;
+}
+.text-container p{
+    font-size: large;
+}
+.list1, .list2, .list3, .list4{
+    width: 100%;
+    display: inline-block;
+    margin-left: 10%;
+}
+div.text-container1{
+    display: inline-block;
+    width: 80%;
+    float: left;
+    margin: 20px;
+}
+.Surkov h1{
+    font-size: x-large;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+.Surkov ll{
+    color: #37C1EB;
+}
+.main{
+    padding-left: 7%;
+    margin: 2% 0 2% 2%;
+    width: 55%;
+    float: left;
+}
+.facebook{
+    float: left;
+    margin: 2% 2% 0 2%;
+    height: 680px;
+    width: 300px;
+}
+.widget{
+    background-color: #737D7D;
+    margin: 5%;
+    height: 100%;
+    text-align: center;
+}
+.widget p{
+    padding-top: 60%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+/* Viktor Surkov END */
+
+
+/* Roman Mrychko START */
+.footer {
+  width: 100%;
+  height: 300px;
+  border: 2px solid green; /*test*/
+}
+
+/*how-to-consume (section 9)*/
+div.how-to-consume {
+    width: 100%;
+    height: 280px;
+    background: #A7B1AF;
+    right: 0;
+    text-align: center;
+}
+
+div.how-to-consume .main-header {
+  width: 300px;
+  padding: 20px;
+  margin: auto;
+  align-content: center;
+}
+
+div.how-to-consume .main-header p {
+  font-family: Arial;
+  font-size: 27px;
+  color: grey;
+  text-align: center;
+}
+
+div.how-to-consume .main-header span {
+  color: blue;
+}
+
+#left-container {
+  float: left;
+}
+
+#center-container {
+  margin: auto;
+}
+
+#right-container {
+  float: right;
+}
+
+/* circle container*/
+div.how-to-consume .circle-container {
+  width: 30%;
+  height: 140px;
+  border: 2px solid red; /* test */
+  display: inline-block;
+  margin: auto;
+}
+
+/* circle */
+div.how-to-consume .circle {
+  border-radius: 50%;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border: 2px solid blue;
+}
+
+/* epilogue-footer (section 10) */
+div.epilogue-footer {
+  width: 100%;
+  height: 280px;
+  background: #1C1E1D;
+}
+
+/* copyright (section 11) */
+div.copyright {
+  width: 100%;
+  height: 50px;
+  background: black;
+}
+/* Roman Mrychko END */
